@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS departments (
+	dept_no VARCHAR(10) PRIMARY KEY,
+	dept_name VARCHAR(50) UNIQUE NOT NULL
+)
